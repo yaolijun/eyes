@@ -5,9 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.eyes</groupId>
   <artifactId>eyes</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>eyes Maven Webapp</name>
+    <modules>
+        <module>common-utils</module>
+    </modules>
+    <name>eyes Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
